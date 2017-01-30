@@ -15,13 +15,22 @@
     <p><img src=https://raw.githubusercontent.com/KodeKunstner/unnamed-solsort-com-app/master/icon.png width=96 height=96 align=right></p>
 <p><a href="https://github.com/KodeKunstner/unnamed-solsort-com-app"><img src="https://img.shields.io/badge/github-KodeKunstner/unnamed-solsort-com-app-blue.svg" alt="github" /></a>
 <a href="https://codeclimate.com/github/KodeKunstner/unnamed-solsort-com-app"><img src="https://img.shields.io/codeclimate/github/KodeKunstner/unnamed-solsort-com-app.svg" alt="codeclimate" /></a></p>
-<h1 id="helloworldthisisatest">Hello world, this is a test</h1>
+<h1 id="alfabetspiltiltheodor">alfabet spil til Theodor</h1>
 <p>This is a bit of documentation, try 'Read' above. Code can be written as semi-literate code, see more here <a href="https://en.wikipedia.org/wiki/Literate_programming">https://en.wikipedia.org/wiki/Literate_programming</a></p>
 <pre><code>module.meta = {
-  name: 'Sample Application',
-  version: '0.0.1'
+  id: 'alphabet-game',
+  version: '0.0.1',
+  npm: {}
 };
 var da = require('direape@0.1');
+var jodom = require('direape@0.1/jodom');
+da.run(da.parent, 'reun:run', `
+console.log('here');
+var jsonml2dom = require('direape@0.1/jodom.js').jsonml2dom;
+console.log(jsonml2dom);
+
+`,'');
+
 da.run(da.parent, 'appedit:html',`
 &lt;center&gt;
   &lt;h1&gt;Change me&lt;/h1&gt;
