@@ -15,15 +15,31 @@
     <p><img src=https://raw.githubusercontent.com/KodeKunstner/unnamed-solsort-com-app/master/icon.png width=96 height=96 align=right></p>
 <p><a href="https://github.com/KodeKunstner/unnamed-solsort-com-app"><img src="https://img.shields.io/badge/github-KodeKunstner/unnamed-solsort-com-app-blue.svg" alt="github" /></a>
 <a href="https://codeclimate.com/github/KodeKunstner/unnamed-solsort-com-app"><img src="https://img.shields.io/codeclimate/github/KodeKunstner/unnamed-solsort-com-app.svg" alt="codeclimate" /></a></p>
-<h1 id="solsort">solsort</h1>
+<h1 id="alfabetspiltiltheodor">alfabet spil til Theodor</h1>
+<p>This is a bit of documentation, try 'Read' above. Code can be written as semi-literate code, see more here <a href="https://en.wikipedia.org/wiki/Literate_programming">https://en.wikipedia.org/wiki/Literate_programming</a></p>
 <pre><code>module.meta = {
-  id: 'solsort',
-  name: 'solsort utility library',
+  id: 'alphabet-game',
   version: '0.0.1',
-  npm: {
-  }
+  npm: {}
 };
-var da = require('direape@0.1');
+var ss = require('solsort@0.1');
+ss.html(`
+&lt;style&gt;
+#alphabet {
+display: inline-block;
+width: 100%;
+height: 100%;
+background: red;
+}
+&lt;/style&gt;
+&lt;div id=alphabet
+&gt;
+${123}
+{ss.htmlEvent('hello')}
+"Hello world"
+&lt;/div&gt;
+&lt;center&gt;
+`);
 </code></pre>
   </div>
     <script src=https://unpkg.com/reun></script>
